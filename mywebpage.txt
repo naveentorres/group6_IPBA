@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset=utf-8" />
+		<meta name="viewport" content=
+		"width=device-width, initial-scale=1" />
+		<title>Group 6 IPBA Webpage</title>
+	<style>
+			div
+			{
+				margin:30px;
+			}
+			body {
+				margin:0;
+				padding: 0;
+				font-size: 20px;
+				line-height: 30px;
+				font-family: Times New Roman;
+				text-align: center;
+				vertical-align: center;
+			}
+			a {
+				text-decoration: none;
+			}
+		
+			/* Banner */
+			div.top {
+				margin: 0%;
+				width:100%;
+				height:300px;
+				background-color: none;
+				background-position: center;	
+				background-image: url(https://cdn.discordapp.com/attachments/1151496954380034068/1155491499379798046/Come_join_the_Voice-Casters.png);
+				
+	
+			}
+			div.top h1 {
+				width:100%;
+				height:200px;
+				line-height:200px;
+				text-align: center;
+				font-size: 70px;
+				color: #00000
+				margin:0;
+			}
+			
+			/* Menu */
+			div.menu {
+				margin: 0%;
+				width:100%;
+				background:#a7e7c3;
+				position: static;
+	
+			}
+
+			
+			div.menu ul {
+				width:100%;
+				margin: auto;
+				list-style: none;
+				padding: 0;
+			
+			}
+			
+			div.menu ul li {
+				display: inline-block;				
+			}
+			
+			div.menu ul li a {
+				display: inline-block;
+				padding: 15px 30px 15px 30px; /* same value with padding:15px 30px*/
+				color:#ffffff;
+				
+			}
+			
+			div.menu ul li a:hover, div.menu ul li a.current {
+			color: #222222;
+			background-color: #ffffff;
+			
+			}
+	</style>
+	</head>
+	<body bgcolor="beige">
+		<div class="top">
+			<h1 style="font-weight:500; text-decoration:  none; color: pink; text-align: center; font-family: chonburi;"></h1>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="#welcome" class
+				"current">Home
+				</a></li>
+				<li><a href="#aboutus">About Us
+				</a></li>
+				<li><a href="#content">Content
+				</a></li>
+				<li><a href="#needs">Needs
+				</a></li>
+				<li><a href="#members">Members
+				</a></li>
+				</ul>
+		</div>
+
+		<div class="content">
+			<div class="content-wrapper" id="welcome">
+			<h2 style="font-size:30px; color: blue; margin-bottom: 20px; text-align: left;">Welcome</h2>
+		</div>
+		<div class="content-wrapper" id="about us">
+		<h2 style="font-weight:1000; font-size: 30px; text-decoration: none; color: black; text-align: left; font-family: new times roman;">About Us</h2>
+		<p style="text-align: justify;">We are Grade 9 students from Apec schools and our primary goal is to create a fundraising event to raise funds for the residents of Sitio Bebe who are currently undergoing a severe health crisis due to lack of clean watersource, they also have a shortage of health workers, health equipment, medicines and supplies.
+		
+		</p>
+		</div>
+		<div class="content-wrapper" id="Content">
+		<h2 style="font-weight:1000; font-size: 30px; text-decoration: none; color: black; text-align: left; font-family: new times roman;">Content</h2>
+		<p style="text-align: justify;">One way to promote our fundraising  concert is through podcasts. Our group will create our  own podcast to promote the benefit concert event and to talk about the topic, report news or stories about the health crisis in Sitio Bebe and what we can do about their situation. We will also invite musicians, students and other guests to talk about the event and share it on various podcast platforms such as Spotify, Apple Podcasts, and Google Podcasts. 
+ 		<p style="text-align: justify;">We plan to target our content to people who are passionate about the cause and have strong belief in its mission;  Fans of the performing artists who are participating in the concert;  Philanthropists who actively seek opportunities to contribute to charitable causes and Students and Young Professionals  who are passionate about social issues and want to make a difference. These people may attend fundraising concerts as a way to support causes they care about.	
+		</p>
+		</div>
+		<div class="content-wrapper" id="Needs">
+		<h2 style="font-weight:1000; font-size: 30px; text-decoration: none; color: black; text-align: left; font-family: new times roman;">Needs</h2>
+		<p style="text-align: justify;">How does our channel work?
+		<br> 
+Our channel works by: in each different series, there would be different characters talking about the situation and interactive questions that were taken from our listeners, requests for different characters being voiced is through a commission box, the viewers paying for requests for their favorite characters to be voiced.
+		</p>
+		<h2 style="font-size:26px; color: red;">Link: 
+		<a href="https://media.discordapp.net/attachments/1151496954380034068/1155493505087582228/Come_join_the_Voice-Casters_1.png?width=546&height=546">Ticket</a>
+		</p>
+		</div>
+		<div class="content-wrapper" id="Members">
+		<h2 style="font-weight:1000; font-size: 30px; text-decoration: none; color: black; text-align: left; font-family: new times roman;">Members</h2>
+		<ul style="text-align: left">
+  		<li>Jesrel</li>
+  		<li>Naveen</li>
+  		<li>Joshua</li>
+		<li>Jasmine</li>
+		<li>Shan</li>
+		</ul>
+		</div>
+		
+		<div class="content-wrapper" id="Contactorm">
+		<h2>Send us a Message</h2>
+		<form method="post">
+		<p class="formfields">
+		<label>Name</label>
+		<input	
+			type="text"
+			name="yourname"
+			value=""
+			placeholder="Please enter your name"
+		/>
+		</p>
+		<p class="formfields">
+		<label>Email</label>
+		<input	type="text"
+			name="youremail"
+			value=""
+			placeholder="Please enter your email"
+		/>
+		</p>
+		<p class="formfields">
+		<label>Message</label>
+		<textarea	
+			name="yourmessage"
+			placeholder="Please enter your message"
+			></textarea>
+		</p>
+		<p class="formfields">
+		<input type="checkbox" name="updateme" value="yes"
+		/>
+		Please send an update.
+		</p>	
+		<p class="formfields">
+		<input type="submit" value="Submit" />
+		</p>
+		</form>
+		</div>
+	</body>
+	</html>
+			
+	
+			
+			
+
+			
+				
